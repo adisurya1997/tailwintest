@@ -1,0 +1,28 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-family: ProximaNova,Arial,Sans-serif !important;
+  font-size:14px;
+}
+
+body{
+  background-color: white;
+}
+
+.imagecarousel{
+  height:80vh;
+}
+
+@font-face {
+  font-family: 'ProximaNovaFont';
+  src: local('ProximaNovaFont'), url(./fonts/ProximaNovaFont.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: local('SF Pro Display Regular'), url(./fonts/SF Pro Display Regular/SF Pro Display Regular.ttf) format('truetype');
+}
